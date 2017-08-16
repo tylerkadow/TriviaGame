@@ -30,6 +30,7 @@ var intervalId;
     function run() {
     	intervalId = setInterval(decrement, 1000);
     	$("#start").css("display", "none");
+    	$(".instructions").css("display", "none");
     }
     //every one second, the function decrement occurs
     //which lowers number by one
@@ -85,6 +86,12 @@ function checkTest() {
 	}
 	else {
     	incorrectCount++;
+    }
+    if ($('input[type="radio"][name=Q5]:checked').val() == "A1") {
+        correctCount++;
+    }
+    else {
+        incorrectCount++;
     }
     console.log(correctCount);
     console.log(incorrectCount);

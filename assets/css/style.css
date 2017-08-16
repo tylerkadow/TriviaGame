@@ -1,10 +1,10 @@
 body {
 	text-align: center;
 	background-color: #FF69B4;
-	/*The deep shade of pink, may change to an image*/
+	/*The deep shade of pink, may change it into an image*/
 }
 
-.container {
+#container {
 	background-color: #DDA0DD;
 	height: 560px;
 }
@@ -26,6 +26,10 @@ b {
 
 b {
 	font-size: 20px;
+}
+
+.instructions {
+	text-align: left;
 }
 
 #reset,
